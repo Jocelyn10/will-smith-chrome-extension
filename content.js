@@ -7,3 +7,10 @@ let willSmithImages = [
   '/pictures/will6.jpg',
   '/pictures/will7.jpg',
 ];
+
+const imgs = document.getElementsByTagName('img');
+
+for (let i = 0; i < imgs.length; i++) {
+  const randomImg = Math.floor(Math.random() * willSmithImages.length);
+  imgs[i].src = willSmithImages[randomImg];
+}

@@ -1,5 +1,5 @@
 {
-  "manifest_vesion": 1,
+  "manifest_vesion": 2,
   "name": "WillSmithIsMyLife",
   "version": "1.0.0",
   "content_scripts": [
